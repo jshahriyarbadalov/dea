@@ -2,7 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="180ce31c-64f8-4653-8a36-4f9f54c0b72d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/util/Test.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/burger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/drinks.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/pasta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/pasta1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/pasta2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/pasta3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/pasta4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/pasta5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/pasta6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/saladsa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sell/soup.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/584000926-612x612.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/Customers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/kassa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/res.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/sell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/az/dea/images/setup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/584000926-612x612.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Customers.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sell/Customers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sell/home.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/kassa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/product.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sell/product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/res.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sell/res.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sell.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sell/sell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/setup.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sell/setup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/584000926-612x612.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Customers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/584000926-612x612.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/Customers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/kassa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/res.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/sell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/images/setup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/az/dea/util/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/az/dea/util/Gender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/home.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/home.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kassa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/res.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/setup.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,13 +65,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Gender.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/az/dea/util/Gender.java">
+      <file leaf-file-name="sell.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sell.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
+            <state relative-caret-position="-6018" />
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -42,6 +91,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/az/dea/app/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/az/dea/util/Gender.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/sell.fxml" />
       </list>
     </option>
   </component>
@@ -61,7 +111,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1928" />
     <option name="y" value="-321" />
     <option name="width" value="1936" />
@@ -72,9 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,14 +160,15 @@
               <item name="dearestaurant" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dea" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,6 +178,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PervizHeyderov\IdeaProjects\dearestaurant\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,19 +261,20 @@
       <workItem from="1535535316233" duration="712000" />
       <workItem from="1535629748597" duration="418000" />
       <workItem from="1535631414954" duration="28000" />
-      <workItem from="1535632102766" duration="304000" />
+      <workItem from="1535632102766" duration="692000" />
+      <workItem from="1535633881919" duration="5538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3761000" />
+    <option name="totallyTimeSpent" value="9687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-321" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-1928" y="-321" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32731137" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -232,7 +286,7 @@
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" x="-1176" y="-264" width="432" height="941" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15724947" />
+      <window_info active="true" content_ui="combo" x="-1176" y="-264" width="432" height="941" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15884861" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -241,7 +295,6 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="JetGradle" order="6" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32731137" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,19 +398,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/az/dea/util/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/az/dea/util/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/az/dea/util/Gender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="51">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/az/dea/util/Gender.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/setup.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sell.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/res.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/product.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/kassa.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/img.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/home.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/584000926-612x612.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Customers.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/home.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sell.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6018" />
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
 </project>

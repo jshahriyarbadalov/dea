@@ -23,14 +23,14 @@
 
 <VBox prefHeight="710.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="az.dea.controllers.sampleController">
   <children>
-      <Pane prefHeight="30.0" prefWidth="900.0" style="-fx-background-color: #5DADE2;">
+      <Pane maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="1360.0" style="-fx-background-color: #3A4953;">
          <children>
-            <ImageView fitHeight="28.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="40.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@res.png" />
+                  <Image url="@home/res.png" />
                </image>
             </ImageView>
-            <Label layoutX="81.0" layoutY="-6.0" prefHeight="42.0" prefWidth="247.0" text="Bizim Restoran" textFill="WHITE">
+            <Label layoutX="87.0" layoutY="-1.0" prefHeight="42.0" prefWidth="247.0" text="Bizim Restoran" textFill="WHITE">
                <font>
                   <Font name="System Bold Italic" size="25.0" />
                </font></Label>
@@ -63,13 +63,13 @@
                                           <Insets left="25.0" right="5.0" />
                                        </VBox.margin>
                                        <image>
-                                          <Image url="@home.jpg" />
+                                          <Image url="@home/home.jpg" />
                                        </image>
                                        <cursor>
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </ImageView>
-                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Esas Menu" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Esas Menu" textFill="#3a4953" />
                                  </children>
                               </VBox>
                            </children>
@@ -92,13 +92,13 @@
                                           <Insets left="25.0" right="5.0" top="10.0" />
                                        </VBox.margin>
                                        <image>
-                                          <Image url="@sell.png" />
+                                          <Image url="@home/sell.png" />
                                        </image>
                                        <cursor>
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </ImageView>
-                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Satish Menu" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Satish Menu" textFill="#3a4953" />
                                  </children>
                               </VBox>
                            </children>
@@ -121,13 +121,13 @@
                                           <Insets left="25.0" right="5.0" top="10.0" />
                                        </VBox.margin>
                                        <image>
-                                          <Image url="@product.png" />
+                                          <Image url="@home/product.png" />
                                        </image>
                                        <cursor>
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </ImageView>
-                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Produkt Menu" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Produkt Menu" textFill="#3a4953" />
                                  </children>
                               </VBox>
                            </children>
@@ -150,13 +150,13 @@
                                           <Insets left="25.0" right="5.0" top="10.0" />
                                        </VBox.margin>
                                        <image>
-                                          <Image url="@Customers.png" />
+                                          <Image url="@home/Customers.png" />
                                        </image>
                                        <cursor>
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </ImageView>
-                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Musteriler Menu" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Musteriler Menu" textFill="#3a4953" />
                                  </children>
                               </VBox>
                            </children>
@@ -179,13 +179,13 @@
                                           <Insets left="25.0" right="5.0" top="10.0" />
                                        </VBox.margin>
                                        <image>
-                                          <Image url="@setup.png" />
+                                          <Image url="@home/setup.png" />
                                        </image>
                                        <cursor>
                                           <Cursor fx:constant="HAND" />
                                        </cursor>
                                     </ImageView>
-                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Sazlamalar Menu" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="18.0" prefWidth="138.0" style="-fx-font-size: 15px; -fx-font-weight: bold;" text="Sazlamalar Menu" textFill="#3a4953" />
                                  </children>
                               </VBox>
                            </children>
@@ -207,7 +207,7 @@
                                           <Insets bottom="15.0" left="60.0" right="5.0" />
                                        </VBox.margin>
                                        <image>
-                                          <Image url="@kassa.png" />
+                                          <Image url="@home/kassa.png" />
                                        </image>
                                        <cursor>
                                           <Cursor fx:constant="HAND" />
@@ -237,7 +237,7 @@
                                           <Insets bottom="15.0" left="85.0" right="5.0" />
                                        </VBox.margin>
                                        <image>
-                                          <Image url="@584000926-612x612.png" />
+                                          <Image url="@home/584000926-612x612.png" />
                                        </image>
                                        <cursor>
                                           <Cursor fx:constant="HAND" />
@@ -264,7 +264,7 @@
                                           <Insets bottom="15.0" left="50.0" right="5.0" />
                                        </VBox.margin>
                                        <image>
-                                          <Image url="@img.png" />
+                                          <Image url="@home/img.png" />
                                        </image>
                                        <cursor>
                                           <Cursor fx:constant="HAND" />
