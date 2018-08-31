@@ -11,9 +11,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/home.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/sellDone.fxml"));
         primaryStage.setTitle("DEA Restautant");
-        primaryStage.setScene(new Scene(root, 1360, 710));
+        primaryStage.setScene(new Scene(root, 1000, 610));
         primaryStage.show();
     }
 

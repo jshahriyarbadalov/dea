@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="610.0" maxWidth="1000.0" minHeight="610.0" minWidth="1000.0" prefHeight="610.0" prefWidth="1000.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="az.dea.controllers.sell.sellDoneController">
+   <children>
+      <SplitPane dividerPositions="0.40380761523046094" layoutX="400.0" layoutY="225.0" prefHeight="610.0" prefWidth="1000.0" style="-fx-background-color: #FFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane fx:id="hesab" maxHeight="610.0" maxWidth="400.0" minHeight="610.0" minWidth="400.0" prefHeight="610.0" prefWidth="400.0" style="-fx-background-color: #FFF;">
+               <children>
+                  <VBox layoutX="150.0" layoutY="205.0" prefHeight="610.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label maxHeight="90.0" maxWidth="400.0" minHeight="90.0" minWidth="400.0" prefHeight="90.0" prefWidth="400.0" style="-fx-background-color: #FFF;" text=" Hesab Qəbzi " textFill="#3a4953">
+                           <font>
+                              <Font name="Times New Roman Bold Italic" size="50.0" />
+                           </font>
+                           <padding>
+                              <Insets left="20.0" />
+                           </padding>
+                        </Label>
+                        <Separator prefWidth="200.0" />
+                        <ScrollPane maxHeight="510.0" maxWidth="400.0" minHeight="510.0" minWidth="400.0" prefHeight="510.0" prefWidth="400.0" style="-fx-background-color: #FFF;">
+                          <content>
+                            <AnchorPane maxWidth="390.0" minHeight="495.0" minWidth="390.0" prefHeight="495.0" prefWidth="390.0" style="-fx-background-color: #FFF;">
+                                 <children>
+                                    <ImageView fitHeight="226.0" fitWidth="267.0" layoutX="95.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@sell/pasta1.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </children></AnchorPane>
+                          </content>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                           </padding>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane maxHeight="610.0" maxWidth="592.0" minHeight="610.0" minWidth="592.0" prefHeight="610.0" prefWidth="592.0" style="-fx-background-color: #FFF;">
+               <children>
+                  <VBox layoutX="246.0" layoutY="205.0" maxHeight="610.0" maxWidth="592.0" minHeight="610.0" minWidth="592.0" prefHeight="610.0" prefWidth="592.0" style="-fx-background-color: #FFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <HBox maxWidth="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="592.0">
+                           <children>
+                              <ImageView fitHeight="21.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <HBox.margin>
+                                    <Insets bottom="5.0" left="410.0" right="10.0" top="12.0" />
+                                 </HBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <image>
+                                    <Image url="@sell/back.png" />
+                                 </image>
+                              </ImageView>
+                              <Label maxHeight="40.0" maxWidth="150.0" minHeight="40.0" minWidth="150.0" prefHeight="40.0" prefWidth="150.0" text="Geri Qayıtmaq" textFill="#3a4953">
+                                 <HBox.margin>
+                                    <Insets />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox maxHeight="85.0" maxWidth="592.0" minHeight="85.0" minWidth="592.0" prefHeight="85.0" prefWidth="592.0">
+                           <children>
+                              <Label maxHeight="60.0" maxWidth="285.0" minHeight="60.0" minWidth="285.0" prefHeight="60.0" prefWidth="285.0" text="Ödənildi :" textFill="#3a4953">
+                                 <HBox.margin>
+                                    <Insets bottom="12.5" left="12.5" right="12.5" top="12.5" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="45.0" />
+                                 </font>
+                              </Label>
+                              <TextField alignment="CENTER_RIGHT" maxHeight="60.0" maxWidth="150.0" minHeight="60.0" minWidth="150.0" prefHeight="60.0" prefWidth="150.0" promptText="AZN">
+                                 <HBox.margin>
+                                    <Insets bottom="12.5" left="100.0" right="12.5" top="12.5" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="Calibri Light" size="45.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </HBox>
+                        <HBox maxHeight="85.0" maxWidth="592.0" minHeight="85.0" minWidth="592.0" prefHeight="85.0" prefWidth="592.0">
+                           <children>
+                              <RadioButton contentDisplay="CENTER" maxHeight="40.0" maxWidth="200.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #41AF4B; -fx-background-radius: 10px;" text="     Nəğd" textFill="WHITE">
+                                 <HBox.margin>
+                                    <Insets bottom="20.0" left="50.0" top="20.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="secim" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton contentDisplay="CENTER" layoutX="60.0" layoutY="30.0" maxHeight="40.0" maxWidth="200.0" minHeight="40.0" minWidth="200.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #41AF4B; -fx-background-radius: 10px;" text="     Kartla" textFill="WHITE" toggleGroup="$secim">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                                 <HBox.margin>
+                                    <Insets bottom="20.0" left="100.0" top="20.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                           </children>
+                        </HBox>
+                        <HBox maxHeight="50.0" maxWidth="592.0" minHeight="50.0" minWidth="592.0" prefHeight="50.0" prefWidth="592.0">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                 <HBox.margin>
+                                    <Insets bottom="5.0" left="5.0" top="5.0" />
+                                 </HBox.margin>
+                                 <image>
+                                    <Image url="@sell/users.png" />
+                                 </image></ImageView>
+                              <Label maxHeight="40.0" maxWidth="317.0" minHeight="40.0" minWidth="317.0" prefHeight="40.0" prefWidth="317.0" text="Sifarişi istifadə edərək, bu satışı davam etmek üçün">
+                                 <HBox.margin>
+                                    <Insets bottom="5.0" left="5.0" top="5.0" />
+                                 </HBox.margin>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font></Label>
+                              <Label maxHeight="40.0" maxWidth="209.0" minHeight="40.0" minWidth="120.0" prefHeight="40.0" prefWidth="209.0" text="yeni bir müştəri əlavə edin..." textFill="#4d90fe">
+                                 <HBox.margin>
+                                    <Insets bottom="5.0" right="5.0" top="5.0" />
+                                 </HBox.margin>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font></Label>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="220.0" maxHeight="50.0" maxWidth="512.0" minHeight="50.0" minWidth="512.0" prefHeight="50.0" prefWidth="512.0">
+                           <children>
+                              <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                 <HBox.margin>
+                                    <Insets bottom="5.0" left="5.0" right="15.0" top="5.0" />
+                                 </HBox.margin>
+                                 <image>
+                                    <Image url="@sell/printer.png" />
+                                 </image>
+                              </ImageView>
+                              <Label maxHeight="40.0" maxWidth="209.0" minHeight="40.0" minWidth="120.0" onMouseClicked="#printHesab" prefHeight="40.0" prefWidth="209.0" text="Hesab Qəbzini Çap Etmək" textFill="#183c75">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets bottom="5.0" right="5.0" top="5.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets left="55.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Button alignment="CENTER" contentDisplay="CENTER" maxHeight="50.0" maxWidth="400.0" minHeight="50.0" minWidth="400.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="50.0" prefWidth="400.0" style="-fx-background-color: #41AF4B; -fx-background-radius: 10px;" text="Tamamlandır ( ESC )" textFill="WHITE">
+                           <font>
+                              <Font name="Lato Black" size="18.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <VBox.margin>
+                              <Insets left="91.0" top="100.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
