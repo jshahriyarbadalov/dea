@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="1212.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="az.dea.controllers.sell.SellHistoryController">
+   <children>
+      <SplitPane dividerPositions="0.1053019145802651" focusTraversable="true" layoutY="-5.0" prefHeight="-1.0" prefWidth="-1.0">
+         <items>
+            <AnchorPane maxWidth="200.0" minWidth="200.0" prefHeight="656.0" prefWidth="200.0" style="-fx-background-color: #FDFEFE;">
+               <children>
+                  <VBox layoutX="47.0" maxWidth="200.0" minWidth="200.0" prefHeight="656.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Label maxHeight="50.0" maxWidth="240.0" minHeight="50.0" minWidth="193.0" onMouseClicked="#goSellMenu" prefHeight="50.0" prefWidth="193.0" text="Satish" textFill="#3a4953">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" top="50.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="10.0" maxHeight="50.0" maxWidth="240.0" minHeight="50.0" minWidth="193.0" prefHeight="50.0" prefWidth="193.0" text="Satish Arxivi" textFill="#557c94">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label layoutX="10.0" layoutY="60.0" maxHeight="50.0" maxWidth="240.0" minHeight="50.0" minWidth="193.0" prefHeight="50.0" prefWidth="193.0" text="Acilis / Baglanis" textFill="#3a4953">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="10.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <ScrollPane maxHeight="656.0" maxWidth="1005.0" minHeight="656.0" minWidth="1005.0" prefHeight="656.0" prefWidth="1005.0">
+               <content>
+                  <FlowPane maxWidth="1005.0" minHeight="656.0" minWidth="1005.0" prefHeight="656.0" prefWidth="1005.0" style="-fx-background-color: #FFF;">
+                     <children>
+                        <AnchorPane maxHeight="131.0" maxWidth="1005.0" minHeight="131.0" minWidth="1005.0" prefHeight="131.0" prefWidth="1005.0">
+                           <children>
+                              <VBox layoutX="453.0" layoutY="-34.0" maxHeight="131.0" maxWidth="1005.0" minHeight="131.0" minWidth="1005.0" prefHeight="131.0" prefWidth="1005.0" style="-fx-background-color: #eee;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Label maxHeight="28.0" maxWidth="985.0" minHeight="28.0" minWidth="985.0" prefHeight="28.0" prefWidth="985.0" text="Melumat 1">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label maxHeight="28.0" maxWidth="985.0" minHeight="28.0" minWidth="985.0" prefHeight="28.0" prefWidth="985.0" text="Melumat 2">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label maxHeight="28.0" maxWidth="985.0" minHeight="28.0" minWidth="985.0" prefHeight="28.0" prefWidth="985.0" text="Melumat 3">
+                                       <font>
+                                          <Font name="System Bold" size="15.0" />
+                                       </font>
+                                       <padding>
+                                          <Insets bottom="10.0" left="10.0" right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <HBox maxHeight="28.0" maxWidth="985.0" minHeight="28.0" minWidth="985.0" prefHeight="28.0" prefWidth="985.0">
+                                       <children>
+                                          <Label maxHeight="28.0" maxWidth="930.0" minHeight="28.0" minWidth="930.0" prefHeight="28.0" prefWidth="930.0" text="Melumat 4">
+                                             <font>
+                                                <Font name="System Bold" size="15.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets bottom="10.0" left="10.0" right="10.0" />
+                                             </padding>
+                                          </Label>
+                                          <Button mnemonicParsing="false" prefHeight="15.0" prefWidth="45.0" text="Cap">
+                                             <HBox.margin>
+                                                <Insets bottom="10.0" left="5.0" right="5.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                           <FlowPane.margin>
+                              <Insets />
+                           </FlowPane.margin>
+                        </AnchorPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </FlowPane>
+               </content>
+            </ScrollPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

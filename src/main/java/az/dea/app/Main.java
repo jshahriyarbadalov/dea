@@ -11,9 +11,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/sellDone.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/home.fxml"));
+        //primaryStage.isMaximized();
+        //primaryStage.setFullScreen(true);
         primaryStage.setTitle("DEA Restautant");
-        primaryStage.setScene(new Scene(root, 1000, 610));
+        primaryStage.setScene(new Scene(root, 1360, 710));
         primaryStage.show();
     }
 
